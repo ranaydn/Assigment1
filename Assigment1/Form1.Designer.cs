@@ -94,7 +94,7 @@
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblTitle.Location = new System.Drawing.Point(125, 10);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(161, 38);
+            this.lblTitle.Size = new System.Drawing.Size(250, 30);
             this.lblTitle.TabIndex = 4;
             this.lblTitle.Text = "To-Do List";
             // 
@@ -105,7 +105,7 @@
             this.lblTotalTasks.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblTotalTasks.Location = new System.Drawing.Point(20, 340);
             this.lblTotalTasks.Name = "lblTotalTasks";
-            this.lblTotalTasks.Size = new System.Drawing.Size(161, 28);
+            this.lblTotalTasks.Size = new System.Drawing.Size(250, 30);
             this.lblTotalTasks.TabIndex = 5;
             this.lblTotalTasks.Text = "Total  Tasks : 0";
             // 
@@ -114,7 +114,7 @@
             this.txtTask.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtTask.Location = new System.Drawing.Point(20, 60);
             this.txtTask.Name = "txtTask";
-            this.txtTask.Size = new System.Drawing.Size(320, 34);
+            this.txtTask.Size = new System.Drawing.Size(320, 30);
             this.txtTask.TabIndex = 6;
             // 
             // lstTasks
@@ -162,4 +162,5 @@
         private System.Windows.Forms.ListBox lstTasks;
     }
 }
+
 
